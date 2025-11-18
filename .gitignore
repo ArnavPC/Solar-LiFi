@@ -1,0 +1,57 @@
+# Arduino IDE
+*.hex
+*.eep
+*.elf
+*.map
+
+# Build files
+build/
+*.o
+*.a
+
+# Arduino library
+libraries/
+
+# ESP8266 specific
+.pioenvs
+.piolibdeps
+.vscode/
+.pio/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*~
+*.swp
+*.swo
+*.tmp
+.tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Log files
+*.log
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Python (if using any scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Node modules (if using any web interface)
+node_modules/
+package-lock.json
